@@ -30,3 +30,7 @@
     2. Crear un repositorio con sub módulos que nos permitan enlazar todo nuestro trabajo.
 - En el proyecto se usa de forma opcional para levantar todos los micros a la vez pero tambien se pueden correr individualmente
 - Para correrlo con docker: `https://github.com/oscarrodriguezbu/nest-microservice-like-monorepo-docker`
+
+
+## Stripe:
+- Para el micro de payments. Esta pendiente de los pagos y devuelve respuesta rapidamente
