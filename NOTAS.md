@@ -33,4 +33,19 @@
 
 
 ## Stripe:
-- Para el micro de payments. Esta pendiente de los pagos y devuelve respuesta rapidamente
+Para el micro de payments. Esta pendiente de los pagos y devuelve respuesta rapidamente
+
+## Google Cloud
+Es basicamente configurar cosas y subir repos etc.
+
+## Kubernetes
+Complemento de Google Cloud
+
+- CI => Google Cloud, CD => Kubernetes
+- Permite desplegar, actualuzar y administrar aplicaciones. 
+- Es como un orquestador de contenedores por ejemplo
+- Brinda replicas atraves de un balanceador de carga
+- Cluster: Api server, Controller manaager, Scheduler (asegura el cambio de PODs), ETCD (keyValue storage)
+- El cluster controla toda la infraestructura, es el mas importante y puede tener replicas. Accedemos a el con: CLI, UI, API
+- Cada POD tiene una IP diferente y es efimera. No se alamcena info en los PODS. Se comunican atraves de Service
+- Kubernetes se encuentra en docker. Por ejemplo configurando con el engranaje en docker desktop
